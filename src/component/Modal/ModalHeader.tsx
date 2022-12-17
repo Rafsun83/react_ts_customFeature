@@ -7,7 +7,7 @@ interface Props {
    */
   className?: string;
   /**
-   * Defines the close button's position
+   * Defines the close button's positio
    */
   closeButtonPosition?: 'right' | 'left';
 }
