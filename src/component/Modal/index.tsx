@@ -1,5 +1,7 @@
 import clsx from 'clsx';
 import { MouseEvent, MutableRefObject, PropsWithChildren, useRef } from 'react';
+import ModalBody from './ModalBody';
+import ModalCloseIcon from './ModalClose';
 
 // import ModalBody from './ModalBody';
 // import ModalCloseIcon from './ModalCloseIcon';
@@ -63,8 +65,8 @@ const Modal = ({
 };
 
 Modal.Header = ModalHeader;
-// Modal.Body = ModalBody;
+Modal.Body = ModalBody;
 // Modal.Footer = ModalFooter;
-// Modal.CloseIcon = ModalCloseIcon;
+Modal.CloseIcon = ModalCloseIcon;
 
 export default Modal;
