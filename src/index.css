@@ -127,3 +127,26 @@ code {
     transform: scale(1);
   }
 }
+
+/* dropDown */
+.dropDown{
+  opacity: 1;
+  z-index: 1;
+  position: absolute;
+  /* top: 13px;
+  right: 13px; */
+  /* width: 8rem; */
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  
+}
+.buttonclass {
+  border: 1px solid green;
+  padding: 5px;
+  border-radius: 5px;
+  background: yellowgreen;
+}
+
+.buttonclass:hover{
+  background-color: yellow;
+}

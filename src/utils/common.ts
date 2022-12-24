@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 interface Props {
-  ref: any;
+  ref: any| null;
   handler: (value: any) => void;
 }
 
